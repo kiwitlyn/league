@@ -1,0 +1,8 @@
+/* body {
+    background-color: #150630; /* Change the color code to your desired background color */
+/* } */
+body {
+    background-image: url('summonersrift.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
