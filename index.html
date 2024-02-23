@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <style>
+        body {
+            background-image: url('summonersrift.jpg');
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            /* Add any additional background styles here */
+        }
+
+        .title-container {
+            position: relative;
+            top: 50px; /* Adjust the top offset to move the title down */
+            left: 100px; /* Adjust the left offset to move the title to the right */
+            z-index: 1;
+            color:antiquewhite;
+            font-size: 36px;
+            /* Add any additional title container styles here */
+        }
+
+        .content-container {
+            position: relative;
+            top: 1000px; /* Adjust the top offset to position the content below the title */
+            left: 50px; /* Adjust the left offset to move the content to the right */
+            z-index: 1;
+            color: rgb(1, 14, 26);
+            /* Add any additional content container styles here */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title-container">
+            <h1>{{title}}</h1> <!-- Place the title within a container -->
+        </div>
+    </header>
+    <main>
+        <div class="content-container">
+            {{content}}
+        </div>
+        <!-- This is where the Markdown content will be inserted -->
+    </main>
+</body>
+</html>
